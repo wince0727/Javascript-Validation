@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Validation</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    
+    <style>
+
+        
+       *{
+            padding: 0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        body{
+           
+            background-size: cover;
+            color: black;
+            background-color: lightblue;
+        }
+        .registration-form
+        {
+            position: absolute;
+            top: 120%;
+            Left: 40%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            
+        }
+
+        .registration-form h1 {
+            font-size: 30px;
+            text-align: center;
+            text-transform: uppercase;
+            margin: 40px 0;
+         }
+         .registration-form p {
+            font-size: 20px;
+            margin: 15px 0;
+
+         }
+
+         .registration-form input {
+            font-size: 16px;
+            padding: 15px 10px;
+            width: 150%;
+            height: 10px;
+            border-radius: 5px;
+            outline: none;
+         }
+
+         .registration-form button {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 20px 0;
+            padding: 10px 15px;
+            width: 50%;
+            border: 0;
+            border-radius: 5px;
+            background-color: whitesmoke;
+         }
+
+         .registration-form button:hover {
+            color: black;
+         }
+         h1,p{
+            color: black;
+         }
+         
+         
+    </style>
+    </head>
+    <body>
+        <div class="registration-form">
+            <form action="#" method="post">
+                    <p>User Name:</p>
+                    <input type="text" name="user name" placeholder="User Name">
+                    <p>Password:</p>
+                    <input type="text" name="password" placeholder="Password">
+                    <p>Email:</p>
+                    <input type="text" name="email" placeholder="Email">
+                    <p>Website:</p>
+                    <input type="text" name="website" placeholder="Website">
+                    <p>Phone:</p>
+                    <input type="text" name="phone" placeholder="Phone">
+                    <p>Age:</p>
+                    <input type="text" name="age" placeholder="Age">
+                    <p>Range:</p>
+                    <div id="m">
+                        <input id="i" type="range" min="0" max="100" value="50">
+                        <span id="s"></span>
+                    </div>
+                    <p>Date:</p>
+                    <input type="date" name="date" placeholder="Date">
+                    <p>Month:</p>
+                    <input type="month" name="month" placeholder="Month">
+                    <p>Week:</p>
+                    <input type="week" name="week" placeholder="Week">
+                    <p>Time:</p>
+                    <input type="time" name="time" placeholder="Time">
+                    <p>Color:</p>
+                    <input type="color" name="color" placeholder="Color">
+                    <p>File:</p>
+                    <input type="file" name="file" placeholder="File">
+                    <p>Textarea:</p>
+                    <input type="textarea" name="textarea" placeholder="Textarea">
+                    <p>Select</p>
+                    <select name="options">
+                        <option value="A"> option 1</option>
+                        <option value="B"> option 2</option>
+                        <option value="C"> option 3</option>
+                    </select>
+
+                    <div>
+                        <button type="submit">Submit</button>
+
+                    </div>
+                    
+                    
+                    
+                </form>
+            </div>
+        </body>
+        </html> 
